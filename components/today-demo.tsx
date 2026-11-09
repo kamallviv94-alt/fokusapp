@@ -115,7 +115,7 @@ export default function TodayDemo() {
           id="new-task"
           value={draft}
           onChange={(e) => setDraft(e.target.value)}
-          placeholder="Məsələn: anama zəng et"
+          placeholder="Məsələn: təqdimatı hazırla"
           className="min-w-0 flex-1 rounded-[14px] border border-line bg-paper px-4 py-3 text-base outline-none placeholder:text-faint focus:border-grape"
         />
         <button type="submit" className="rounded-[14px] bg-ink px-5 py-3 font-semibold text-white hover:bg-[#2c1b3b]">
