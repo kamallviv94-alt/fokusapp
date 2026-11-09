@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# FokusApp — landing səhifəsi
 
-## Getting Started
+Gündəlik tapşırıqları və vərdişləri bir ekranda izləyən FokusApp tətbiqinin tanıtım səhifəsi.
+ITCoach-un **Vibe Coding** kursunun nümunə layihəsidir.
 
-First, run the development server:
+Səhifədə işləyən kiçik demo var: tapşırıq əlavə etmək, bitmiş kimi işarələmək və vərdiş seriyasını artırmaq olur.
+Demo məlumatı yalnız brauzerin `localStorage`-ında saxlayır.
+
+## Lokal işə salmaq
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Sonra brauzerdə http://localhost:3000 açın.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Vercel-ə deploy
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. [vercel.com/new](https://vercel.com/new) səhifəsində bu GitHub repo-nu seçin (**Import**).
+2. Framework avtomatik **Next.js** kimi tanınır; heç bir mühit dəyişəni lazım deyil.
+3. **Deploy** basın. Hər `git push`-dan sonra Vercel saytı özü yeniləyir.
 
-## Learn More
+## Texnologiyalar
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js (App Router) və React
+- Tailwind CSS
+- Şriftlər: Unbounded (başlıqlar) və Plus Jakarta Sans (mətn) — hər ikisində Azərbaycan hərfləri var
